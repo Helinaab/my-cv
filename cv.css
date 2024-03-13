@@ -1,0 +1,17 @@
+style {
+  * {
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+  }
+  .div1 {
+    background-color: #323b4c;
+    height: 100vh;
+    width: 15%;
+  }
+  .div2 {
+    background-color: white;
+    height: 100vh;
+    width: 85%;
+  }
+}
