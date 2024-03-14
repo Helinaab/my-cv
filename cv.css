@@ -1,17 +1,76 @@
-style {
-  * {
-    height: 0;
-    width: 0;
-    box-sizing: border-box;
-  }
-  .div1 {
-    background-color: #323b4c;
-    height: 100vh;
-    width: 15%;
-  }
-  .div2 {
-    background-color: white;
-    height: 100vh;
-    width: 85%;
-  }
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #282a35;
+  height: 100vh;
+}
+.right-container {
+  height: 100vh;
+  text-align: initial;
+  flex-direction: column;
+  display: flex;
+}
+
+.image {
+  background-image: url("./helupic.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 243px;
+}
+
+.text-container {
+  color: white;
+  padding: 20px;
+}
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.detail {
+  text-align: initial;
+}
+.img {
+  background-image: url(phone.jpg);
+  width: 20%;
+}
+.header {
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+}
+.exp {
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  text-align: left;
+}
+.tit {
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.campany {
+  text-size-adjust: 1px;
+  margin-left: 10px;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.discrption {
+  text-align: inherit;
+  margin-top: 10px;
+}
+.skill {
+  font-size: large;
 }
